@@ -47,7 +47,7 @@ execute as @a at @s unless score @s target matches 2 if score @s blue matches 1.
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 2 if score @s blue matches 1.. run function bounty:kill/target
 
-# BLACK
+# DARK AQUA
 # Display on actionbar
 execute if score @s target matches 3 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=dark_aqua,limit=1]","color":"white"}]
 # Run as @s
@@ -56,7 +56,7 @@ execute as @a at @s unless score @s target matches 3 if score @s dark_aqua match
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 3 if score @s dark_aqua matches 1.. run function bounty:kill/target
 
-# AQUA
+# DARK BLUE
 # Display on actionbar
 execute if score @s target matches 4 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=dark_blue,limit=1]","color":"white"}]
 # Run as @s
@@ -65,7 +65,7 @@ execute as @a at @s unless score @s target matches 4 if score @s dark_blue match
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 4 if score @s dark_blue matches 1.. run function bounty:kill/target
 
-# BLACK
+# DARK GRAY
 # Display on actionbar
 execute if score @s target matches 5 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=dark_gray,limit=1]","color":"white"}]
 # Run as @s
@@ -74,7 +74,7 @@ execute as @a at @s unless score @s target matches 5 if score @s dark_gray match
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 5 if score @s dark_gray matches 1.. run function bounty:kill/target
 
-# AQUA
+# DARK GREEN
 # Display on actionbar
 execute if score @s target matches 6 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=dark_green,limit=1]","color":"white"}]
 # Run as @s
@@ -83,7 +83,7 @@ execute as @a at @s unless score @s target matches 6 if score @s dark_green matc
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 6 if score @s dark_green matches 1.. run function bounty:kill/target
 
-# BLACK
+# DARK PURPLE
 # Display on actionbar
 execute if score @s target matches 7 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=dark_purple,limit=1]","color":"white"}]
 # Run as @s
@@ -92,7 +92,7 @@ execute as @a at @s unless score @s target matches 7 if score @s dark_purple mat
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 7 if score @s dark_purple matches 1.. run function bounty:kill/target
 
-# AQUA
+# DARK RED
 # Display on actionbar
 execute if score @s target matches 8 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=dark_red,limit=1]","color":"white"}]
 # Run as @s
@@ -101,7 +101,7 @@ execute as @a at @s unless score @s target matches 8 if score @s dark_red matche
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 8 if score @s dark_red matches 1.. run function bounty:kill/target
 
-# BLACK
+# GOLD
 # Display on actionbar
 execute if score @s target matches 9 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=gold,limit=1]","color":"white"}]
 # Run as @s
@@ -110,7 +110,7 @@ execute as @a at @s unless score @s target matches 9 if score @s gold matches 1.
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 9 if score @s gold matches 1.. run function bounty:kill/target
 
-# AQUA
+# GRAY
 # Display on actionbar
 execute if score @s target matches 10 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=gray,limit=1]","color":"white"}]
 # Run as @s
@@ -119,7 +119,7 @@ execute as @a at @s unless score @s target matches 10 if score @s gray matches 1
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 10 if score @s gray matches 1.. run function bounty:kill/target
 
-# BLACK
+# GREEN
 # Display on actionbar
 execute if score @s target matches 11 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=green,limit=1]","color":"white"}]
 # Run as @s
@@ -128,7 +128,7 @@ execute as @a at @s unless score @s target matches 11 if score @s green matches 
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 11 if score @s green matches 1.. run function bounty:kill/target
 
-# AQUA
+# LIGHT PURPLE
 # Display on actionbar
 execute if score @s target matches 12 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=light_purple,limit=1]","color":"white"}]
 # Run as @s
@@ -137,7 +137,7 @@ execute as @a at @s unless score @s target matches 12 if score @s light_purple m
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 12 if score @s light_purple matches 1.. run function bounty:kill/target
 
-# BLACK
+# RED
 # Display on actionbar
 execute if score @s target matches 13 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=red,limit=1]","color":"white"}]
 # Run as @s
@@ -146,7 +146,7 @@ execute as @a at @s unless score @s target matches 13 if score @s red matches 1.
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 13 if score @s red matches 1.. run function bounty:kill/target
 
-# AQUA
+# WHITE
 # Display on actionbar
 execute if score @s target matches 14 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=white,limit=1]","color":"white"}]
 # Run as @s
@@ -155,7 +155,7 @@ execute as @a at @s unless score @s target matches 14 if score @s white matches 
 # Check if they have killed their target
 execute as @a at @s if score @s target matches 14 if score @s white matches 1.. run function bounty:kill/target
 
-# BLACK
+# YELLOW
 # Display on actionbar
 execute if score @s target matches 15 run title @s actionbar ["",{"text":"Target: ","color":"green","bold":true},{"selector":"@a[team=yellow,limit=1]","color":"white"}]
 # Run as @s

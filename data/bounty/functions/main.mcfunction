@@ -11,6 +11,9 @@ execute if score started internal matches 1.. as @a at @s run function bounty:ta
 # Check user's team
 execute if score started internal matches 1.. as @a at @s run function bounty:team
 
+# User compass
+execute if score started internal matches 1.. as @a[nbt=!{Inventory:[{id:"minecraft:compass"}]}] at @s run function bounty:compass
+
 # Check if user has won
 execute if score started internal matches 1.. as @a at @s if score @s coins >= max_score global run tag @s add winner
 execute if score started internal matches 1.. as @a at @s if score @s coins >= max_score global run function bounty:win

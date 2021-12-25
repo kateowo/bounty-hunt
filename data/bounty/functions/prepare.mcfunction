@@ -68,4 +68,4 @@ scoreboard objectives setdisplay sidebar coins
 scoreboard objectives add killed dummy
 
 # Set temp value to run default options
-execute unless score default internal matches 1.. run function bounty:defaults
+execute unless score defaults internal matches 1.. run function bounty:defaults

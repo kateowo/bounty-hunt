@@ -13,4 +13,6 @@ title @a subtitle {"text":"Your target is displayed on the actionbar."}
 
 effect clear @a
 
+gamemode survival @a
+
 scoreboard players set started internal 1
