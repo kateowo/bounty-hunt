@@ -26,9 +26,3 @@ The first to a set amount of points / a timer will decide the winner.
 ## YEP
 
 finished in a day which is pretty cool - 25/12/2021
-
-## final todo
-
-- [x] score requirement
-- [ ] time requirement
-- [ ] option to swap between the two
