@@ -8,6 +8,19 @@ The datapack will be 99% hardcoded values, based on the scoreboard objectives fo
 
 The first to a set amount of points / a timer will decide the winner.
 
+^ not sure if any of this is accurate anymore YEP
+
 ## Points system
 
-TBD.
+| action  | points |
+| ------ | ------ |
+| killed target | +150 |
+| killed your killer | +100 |
+| killed a random waffler | -50 |
+
+# Winning system
+
+| option | requirement |
+| ------ | ----------- |
+| time | 1h? |
+| score | 8000? |
