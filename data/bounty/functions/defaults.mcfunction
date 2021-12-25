@@ -3,7 +3,7 @@
 
 
 # Score to reach
-scoreboard players set max_score global 8000
+scoreboard players set win_score global 8000
 
 # World
 scoreboard players set started internal -1
