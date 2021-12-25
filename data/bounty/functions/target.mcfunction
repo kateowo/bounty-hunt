@@ -136,33 +136,18 @@ execute as @a at @s if score @s killed matches 15 if score @a[team=yellow,limit=
 
 # If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 0 if score @s aqua matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 1 if score @s black matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 2 if score @s blue matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 3 if score @s dark_aqua matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 4 if score @s dark_blue matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 5 if score @s dark_gray matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 6 if score @s dark_green matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 7 if score @s dark_purple matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 8 if score @s dark_red matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 9 if score @s gold matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 10 if score @s gray matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 11 if score @s green matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 12 if score @s light_purple matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 13 if score @s red matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 14 if score @s white matches 1.. run function bounty:kill/random
-# If they killed someone who wasn't their target
 execute as @a at @s unless score @s target matches 15 if score @s yellow matches 1.. run function bounty:kill/random
