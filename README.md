@@ -24,3 +24,7 @@ The first to a set amount of points / a timer will decide the winner.
 | ------ | ----------- |
 | time | 1h? |
 | score | 8000? |
+
+# YEP
+
+finished in a day which is pretty cool - 25/12/2021
