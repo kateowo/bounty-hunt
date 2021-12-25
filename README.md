@@ -16,13 +16,19 @@ The first to a set amount of points / a timer will decide the winner.
 | killed your killer | +100 |
 | killed a random waffler | -50 |
 
-# Winning system
+## Winning system
 
 | option | requirement |
 | ------ | ----------- |
-| time | 1h? |
-| score | 8000? |
+| time | 30m |
+| score | 8000 |
 
-# YEP
+## YEP
 
 finished in a day which is pretty cool - 25/12/2021
+
+## final todo
+
+- [x] score requirement
+- [ ] time requirement
+- [ ] option to swap between the two
