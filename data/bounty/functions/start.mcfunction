@@ -8,6 +8,8 @@ tag @a remove winner
 scoreboard players reset @a coins
 execute as @a run function bounty:reset_kill
 
+function bounty:team_select
+
 title @a title {"text":"START!","color":"green","bold":true}
 title @a subtitle {"text":"Your target is displayed on the actionbar."}
 

@@ -14,6 +14,8 @@ execute as @a at @s run playsound ui.toast.challenge_complete player @s ~ ~ ~
 
 gamemode spectator @a[tag=!winner]
 
+team leave @a
+
 # Fireworks
 # TBD.
 
