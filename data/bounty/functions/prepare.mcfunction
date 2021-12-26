@@ -66,6 +66,8 @@ scoreboard objectives modify coins displayname {"text":"POINTS","color":"gold","
 scoreboard objectives setdisplay sidebar coins
 # Store user's killed (int)
 scoreboard objectives add killed dummy
+# Check user does not have them as their bounty
+scoreboard objectives add same_bounty dummy
 
 # Set temp value to run default options
 execute unless score defaults internal matches 1.. run function bounty:defaults

@@ -11,4 +11,5 @@ scoreboard players add @s coins 150
 execute as @s at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~
 
 # Give new target
-function bounty:pick
+tag @s add new_bounty
+function bounty:new_bounty

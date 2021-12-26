@@ -25,4 +25,6 @@ execute if score started internal matches -1 run effect give @a regeneration 1 2
 execute if score started internal matches -1 run effect give @a saturation 1 255 true
 
 # Check the user's bounty is not themselves
-execute as @a if score @s target = @s team run function bounty:pick
+execute as @a unless score @s target = @s team run scoreboard players set @s same_bounty 0
+execute as @a if score @s target = @s team run scoreboard players set @s same_bounty 1
+execute as @a if score @s target = @s team run function bounty:new_bounty
