@@ -1,6 +1,6 @@
 # Bounty Hunt
 
-Minecraft Bounty Hunt. You are given a random target player you have to kill, if you succeed you earn points. If you kill someone who had you as their target you can also gain points, however killing anyone else will subtract points. First to 8000 will win, who will come out victorious?
+Minecraft Bounty Hunt. You are given a random target player you have to kill, if you succeed you earn points. If you kill someone who had you as their target you can also gain points, however killing anyone else will subtract points. First to **8000** will win, who will come out victorious?
 
 ## Basic outline
 
@@ -10,18 +10,11 @@ The first to a set amount of points / a timer will decide the winner.
 
 ## Points system
 
-| action  | points |
+| Action  | Points |
 | ------ | ------ |
-| killed target | +150 |
-| killed your killer | +100 |
-| killed a random waffler | -50 |
-
-## Winning system
-
-| option | requirement |
-| ------ | ----------- |
-| time | 30m |
-| score | 8000 |
+| Killing target | `+150` |
+| Killed your assassin | `+100` |
+| Killing randomly | `-50` |
 
 ## YEP
 
