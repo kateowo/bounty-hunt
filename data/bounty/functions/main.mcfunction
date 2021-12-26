@@ -23,3 +23,6 @@ execute if score started internal matches 1.. as @a at @s if score @s coins >= w
 execute if score started internal matches -1 run gamemode adventure @a[gamemode=!adventure,tag=!bypass]
 execute if score started internal matches -1 run effect give @a regeneration 1 255 true
 execute if score started internal matches -1 run effect give @a saturation 1 255 true
+
+# Check the user's bounty is not themselves
+execute as @a if score @s target = @s team run function bounty:pick

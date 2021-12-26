@@ -62,7 +62,7 @@ scoreboard objectives add target dummy
 scoreboard objectives add team dummy
 # Store user's coins
 scoreboard objectives add coins dummy
-scoreboard objectives modify coins displayname {"text":"COINS","color":"gold","bold":true}
+scoreboard objectives modify coins displayname {"text":"POINTS","color":"gold","bold":true}
 scoreboard objectives setdisplay sidebar coins
 # Store user's killed (int)
 scoreboard objectives add killed dummy
