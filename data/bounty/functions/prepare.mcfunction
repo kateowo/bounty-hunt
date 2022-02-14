@@ -6,22 +6,22 @@
 scoreboard objectives add internal dummy
 scoreboard objectives add global dummy
 # Teams
-scoreboard objectives add aqua killedByTeam.aqua
-scoreboard objectives add black killedByTeam.black
-scoreboard objectives add blue killedByTeam.blue
-scoreboard objectives add dark_aqua killedByTeam.dark_aqua
-scoreboard objectives add dark_blue killedByTeam.dark_blue
-scoreboard objectives add dark_gray killedByTeam.dark_gray
-scoreboard objectives add dark_green killedByTeam.dark_green
-scoreboard objectives add dark_purple killedByTeam.dark_purple
-scoreboard objectives add dark_red killedByTeam.dark_red
-scoreboard objectives add gold killedByTeam.gold
-scoreboard objectives add gray killedByTeam.gray
-scoreboard objectives add green killedByTeam.green
-scoreboard objectives add light_purple killedByTeam.light_purple
-scoreboard objectives add red killedByTeam.red
-scoreboard objectives add white killedByTeam.white
-scoreboard objectives add yellow killedByTeam.yellow
+scoreboard objectives add aqua teamkill.aqua
+scoreboard objectives add black teamkill.black
+scoreboard objectives add blue teamkill.blue
+scoreboard objectives add dark_aqua teamkill.dark_aqua
+scoreboard objectives add dark_blue teamkill.dark_blue
+scoreboard objectives add dark_gray teamkill.dark_gray
+scoreboard objectives add dark_green teamkill.dark_green
+scoreboard objectives add dark_purple teamkill.dark_purple
+scoreboard objectives add dark_red teamkill.dark_red
+scoreboard objectives add gold teamkill.gold
+scoreboard objectives add gray teamkill.gray
+scoreboard objectives add green teamkill.green
+scoreboard objectives add light_purple teamkill.light_purple
+scoreboard objectives add red teamkill.red
+scoreboard objectives add white teamkill.white
+scoreboard objectives add yellow teamkill.yellow
 # Create teams
 team add aqua
 team modify aqua color aqua
