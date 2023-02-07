@@ -1,13 +1,5 @@
-# BOUNTYHUNT
-# Set target
-
-
-# Run for @a
-# ^ function designed to be relative for specific player when they get a kill
-# but is ran as @a at the beginning of the game
-# Give a random scoreboard value in [target]
-# This will then be used to display title
-#                                 & in the target function
+# BOUNTYHUNT bounty
+## get random target
 
 
 execute positioned 0 128 0 run tag @e[tag=team,sort=random,limit=1] add picked
@@ -28,7 +20,5 @@ execute unless score @s target matches 12 if entity @e[tag=picked,tag=team_12] i
 execute unless score @s target matches 13 if entity @e[tag=picked,tag=team_13] if entity @a[team=red] run scoreboard players set @s target 13
 execute unless score @s target matches 14 if entity @e[tag=picked,tag=team_14] if entity @a[team=white] run scoreboard players set @s target 14
 execute unless score @s target matches 15 if entity @e[tag=picked,tag=team_15] if entity @a[team=yellow] run scoreboard players set @s target 15
-title @s subtitle "You have a new target!"
 
 tag @e[tag=team,tag=picked] remove picked
-tag @s remove new_bounty

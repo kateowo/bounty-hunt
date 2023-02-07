@@ -12,4 +12,4 @@ execute as @s at @s run playsound minecraft:entity.experience_orb.pickup player 
 
 # Give new target
 tag @s add new_bounty
-function bounty:new_bounty
+function bounty:system/bounty/go

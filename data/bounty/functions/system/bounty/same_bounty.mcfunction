@@ -1,5 +1,5 @@
-# BOUNTYHUNT
-# Set target if same
+# BOUNTYHUNT bounty
+## same target as self
 
 
 # Run for @a
@@ -10,7 +10,7 @@
 #                                 & in the target function
 
 
-execute positioned 0 128 0 run tag @e[tag=team,sort=random] add temp
+execute positioned 0 128 0 run tag @e[tag=team,sort=random,limit=1] add temp
 
 tag @s add temp_trade_bounty2
 tag @r[scores={same_bounty=1}] add temp_trade_bounty

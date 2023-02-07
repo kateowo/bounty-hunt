@@ -7,7 +7,7 @@ execute if score period internal matches 1.. as @a at @s run function bounty:sys
 # Check the user's bounty is not themselves
 execute as @a unless score @s target = @s team run scoreboard players set @s same_bounty 0
 execute as @a if score @s target = @s team run scoreboard players set @s same_bounty 1
-execute as @a if score @s same_bounty matches 1.. run function bounty:new_bounty
+execute as @a if score @s same_bounty matches 1.. run function bounty:system/bounty/go
 
 # Check user's target
 execute if score period internal matches 1.. as @a at @s unless score @s same_bounty matches 1.. run function bounty:target
