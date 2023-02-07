@@ -1,6 +1,5 @@
 {
-    "values": [
-      "bounty:prepare" 
-     ] 
-  }
-  
+  "values": [
+    "bounty:load"
+  ]
+}
