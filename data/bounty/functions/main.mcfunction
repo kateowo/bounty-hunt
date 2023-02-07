@@ -3,7 +3,7 @@
 
 
 # Check who user killed
-execute if score started internal matches 1.. as @a at @s run function bounty:kill/check
+execute if score started internal matches 1.. as @a at @s run function bounty:system/kill/check
 
 # Check the user's bounty is not themselves
 execute as @a unless score @s target = @s team run scoreboard players set @s same_bounty 0
