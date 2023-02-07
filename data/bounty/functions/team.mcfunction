@@ -1,5 +1,5 @@
-# BountyHunt
-# Store user's team (int)
+# BOUNTYHUNT teams
+## store user's team as index
 
 
 execute if entity @s[team=aqua] run scoreboard players set @s team 0

@@ -1,4 +1,4 @@
-# BountyHunt
+# BOUNTYHUNT
 # Default options
 
 
@@ -6,7 +6,7 @@
 scoreboard players set win_score global 8000
 
 # World
-scoreboard players set started internal -1
+scoreboard players set period internal -1
 worldborder set 10
 gamemode adventure @a
 

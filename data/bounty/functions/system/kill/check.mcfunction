@@ -1,4 +1,4 @@
-# BountyHunt
+# BOUNTYHUNT
 # Store who user killed (int)
 
 

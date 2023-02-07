@@ -1,4 +1,4 @@
-# BountyHunt
+# BOUNTYHUNT
 # Runs on /reload
 
 

@@ -1,4 +1,4 @@
-# BountyHunt
+# BOUNTYHUNT
 # Compass tracker
 
 

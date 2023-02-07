@@ -1,4 +1,4 @@
-# BountyHunt
+# BOUNTYHUNT
 # Killed their killer(target)
 
 

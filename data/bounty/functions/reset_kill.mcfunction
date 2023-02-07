@@ -1,4 +1,4 @@
-# BountyHunt
+# BOUNTYHUNT
 # Reset user's kill scoreboards
 
 

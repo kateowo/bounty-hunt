@@ -1,4 +1,4 @@
-# BountyHunt
+# BOUNTYHUNT
 # Check user's target
 
 

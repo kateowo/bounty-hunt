@@ -1,4 +1,4 @@
-# BountyHunt
+# BOUNTYHUNT
 # Set target if same
 
 

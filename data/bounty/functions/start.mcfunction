@@ -1,4 +1,4 @@
-# BountyHunt
+# BOUNTYHUNT
 # Start game
 
 
@@ -24,4 +24,4 @@ effect clear @a
 
 gamemode survival @a
 
-scoreboard players set started internal 1
+scoreboard players set period internal 1

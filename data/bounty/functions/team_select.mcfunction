@@ -1,5 +1,5 @@
-# BountyHunt
-# Team picker
+# BOUNTYHUNT teams
+## randomly pick a team
 
 
 execute positioned 0 128 0 run tag @e[tag=team,sort=random,tag=!taken] add temp
