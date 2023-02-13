@@ -39,6 +39,7 @@ summon armor_stand 0 128 0 {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,
 summon armor_stand 0 128 0 {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["team","team_13"]}
 summon armor_stand 0 128 0 {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["team","team_14"]}
 summon armor_stand 0 128 0 {NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["team","team_15"]}
+execute as @e[tag=team] run function bounty:system/teams/index_alt
 
 # Set value
 scoreboard players set defaults internal 1

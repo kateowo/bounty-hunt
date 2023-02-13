@@ -3,4 +3,4 @@
 
 
 tag @e[tag=team,tag=picked] remove picked
-function bounty:system/bounty/pick
+tag @s add new_bounty

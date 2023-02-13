@@ -12,4 +12,3 @@ playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~
 
 # Give new target
 tag @s add new_bounty
-function bounty:system/bounty/new

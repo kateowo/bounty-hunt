@@ -8,15 +8,14 @@ function bounty:time
 execute if score period internal matches 1 as @a at @s run function bounty:system/kill/check
 
 # Check the user's bounty is not themselves
-execute as @a unless score @s target = @s team run scoreboard players set @s same_bounty 0
-execute as @a if score @s target = @s team run scoreboard players set @s same_bounty 1
-execute as @a if score @s same_bounty matches 1.. run function bounty:system/bounty/new
+#execute as @a unless score @s target = @s team run scoreboard players set @s same_bounty 0
+#execute as @a if score @s target = @s team run scoreboard players set @s same_bounty 1
+#execute as @a if score @s same_bounty matches 1.. run function bounty:system/bounty/new
+
+execute as @a[tag=new_bounty] run function bounty:system/bounty/new
 
 # Check user's target
-execute if score period internal matches 1 as @a at @s unless score @s same_bounty matches 1.. run function bounty:target
-
-# store user valid bounty
-execute as @a[tag=!new_bounty] unless score @s same_bounty matches 1.. run scoreboard players operation @s player.last_valid_bounty = @s target
+execute if score period internal matches 1 as @a at @s run function bounty:target
 
 # Check user's team
 execute if score period internal matches 1 as @a at @s run function bounty:system/teams/index

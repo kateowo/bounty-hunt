@@ -20,3 +20,7 @@ execute unless score @s target matches 14 unless score @s player.last_valid_boun
 execute unless score @s target matches 15 unless score @s player.last_valid_bounty matches 15 if entity @e[tag=picked,tag=team_15] if entity @a[team=yellow] run scoreboard players set @s target 15
 
 tag @e[tag=team,tag=picked] remove picked
+tag @s remove new_bounty
+
+scoreboard players reset @s same_bounty
+scoreboard players operation @s player.last_valid_bounty = @s target
