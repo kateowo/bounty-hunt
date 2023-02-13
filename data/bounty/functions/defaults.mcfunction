@@ -2,8 +2,14 @@
 # Default options
 
 
-# Score to reach
-scoreboard players set win_score global 8000
+# win conditions
+## 0: score
+## 1: time
+scoreboard players set win_condition global 1
+## score (default roughly 36 kills)
+scoreboard players set win_score global 5500
+## time (default 30min)
+scoreboard players set win_time global 1800
 
 # World
 scoreboard players set period internal -1

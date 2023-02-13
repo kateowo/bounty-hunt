@@ -70,6 +70,8 @@ scoreboard objectives add target dummy
 scoreboard objectives add team dummy
 # Store user's score
 scoreboard objectives add player.score dummy
+## temporary store
+scoreboard objectives add temp_store.player_score dummy
 scoreboard objectives modify player.score displayname {"text":"SCORE","color":"gold","bold":true}
 scoreboard objectives setdisplay sidebar player.score
 # Store user's killed (int)

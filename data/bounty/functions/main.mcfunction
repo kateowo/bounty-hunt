@@ -25,7 +25,7 @@ execute if score period internal matches 1.. as @a if score @s player.compass_co
 ## give new
 execute if score period internal matches 1.. as @a[nbt=!{Inventory:[{id:"minecraft:compass",tag:{playerTracker:1b}}]}] at @s run function bounty:compass
 
-# Check if user has won
+# user win conditions
 execute if score period internal matches 1.. as @a at @s if score @s player.score >= win_score global run tag @s add win
 execute if score period internal matches 1.. as @a at @s if score @s player.score >= win_score global run function bounty:win
 
