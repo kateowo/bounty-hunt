@@ -64,6 +64,9 @@ scoreboard objectives add player.compass_count dummy
 ## used for fake random "apple music random"
 scoreboard objectives add player.last_valid_bounty dummy
 
+# should try again
+scoreboard objectives add player.rng_try_again dummy
+
 # Store user's target (int)
 scoreboard objectives add target dummy
 # Store user's team (int)
