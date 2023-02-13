@@ -9,7 +9,7 @@ tag @e remove taken
 tag @e remove temp
 
 tag @a remove winner
-scoreboard players reset @a coins
+scoreboard players reset @a player.score
 execute as @a run function bounty:reset_kill
 
 execute as @a run function bounty:system/bounty/pick

@@ -56,16 +56,19 @@ team modify white color white
 team add yellow
 team modify yellow color yellow
 
+# store user compass count
+scoreboard objectives add player.compass_count dummy
+
 # Store user's target (int)
 scoreboard objectives add target dummy
 # Store user's team (int)
 scoreboard objectives add team dummy
-# Store user's coins
-scoreboard objectives add coins dummy
-scoreboard objectives modify coins displayname {"text":"POINTS","color":"gold","bold":true}
-scoreboard objectives setdisplay sidebar coins
+# Store user's score
+scoreboard objectives add player.score dummy
+scoreboard objectives modify player.score displayname {"text":"SCORE","color":"gold","bold":true}
+scoreboard objectives setdisplay sidebar player.score
 # Store user's killed (int)
-scoreboard objectives add killed dummy
+scoreboard objectives add player.kill_team_index dummy
 # Check user does not have them as their bounty
 scoreboard objectives add same_bounty dummy
 

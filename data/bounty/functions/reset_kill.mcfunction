@@ -18,4 +18,4 @@ scoreboard players reset @s light_purple
 scoreboard players reset @s red
 scoreboard players reset @s white
 scoreboard players reset @s yellow
-scoreboard players reset @s killed
+scoreboard players reset @s player.kill_team_index
