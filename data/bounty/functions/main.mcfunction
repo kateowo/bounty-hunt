@@ -23,8 +23,8 @@ execute if score period internal matches 1 as @a at @s run function bounty:syste
 
 # User compass
 ## check count
-execute if score period internal matches 1 as @a store result score @s player.compass_count run clear @s compass{tag:{playerTracker:1b}} 0
-execute if score period internal matches 1 as @a if score @s player.compass_count matches 2.. run clear @s compass{tag:{playerTracker:1b}}
+execute if score period internal matches 1 as @a store result score @s player.compass_count run clear @s compass{playerTracker:1b} 0
+execute if score period internal matches 1 as @a if score @s player.compass_count matches 2.. run clear @s compass{playerTracker:1b}
 ## give new
 execute if score period internal matches 1 as @a[nbt=!{Inventory:[{id:"minecraft:compass",tag:{playerTracker:1b}}]}] at @s run function bounty:compass
 
