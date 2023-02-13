@@ -59,6 +59,11 @@ team modify yellow color yellow
 # store user compass count
 scoreboard objectives add player.compass_count dummy
 
+# store user last successful bounty
+## that was not duplicate or deemed invalid
+## used for fake random "apple music random"
+scoreboard objectives add player.last_valid_bounty dummy
+
 # Store user's target (int)
 scoreboard objectives add target dummy
 # Store user's team (int)

@@ -12,6 +12,9 @@ execute as @a if score @s same_bounty matches 1.. run function bounty:system/bou
 # Check user's target
 execute if score period internal matches 1.. as @a at @s unless score @s same_bounty matches 1.. run function bounty:target
 
+# store user valid bounty
+execute as @a[tag=!new_bounty] unless score @s same_bounty matches 1.. run scoreboard players operation @s player.last_valid_bounty = @s target
+
 # Check user's team
 execute if score period internal matches 1.. as @a at @s run function bounty:system/teams/index
 
