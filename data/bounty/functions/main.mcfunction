@@ -1,6 +1,9 @@
 # BOUNTYHUNT main loop
 
 
+# time loop
+function bounty:time
+
 # Check who user killed
 execute if score period internal matches 1 as @a at @s run function bounty:system/kill/check
 
